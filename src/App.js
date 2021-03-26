@@ -1,16 +1,13 @@
 import React from 'react'
-import CreatePokemon from './pages/createPokemon';
-import Home from './pages/home'
+import Router from './Routers/Router'
 
 
 
 function App() {
 
-
   return (
     <div>
-      <CreatePokemon/>
-      <Home/>
+      <Router/>
     </div>
   );
 }
